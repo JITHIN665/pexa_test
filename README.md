@@ -1,17 +1,66 @@
-# pexa_test
+# Pexa Test - Modern Flutter App
 
-A new Flutter project.
+A beautifully themed Flutter application demonstrating clean architecture, dark/light theme switching, animations, REST API integration, and more.
+
+---
+
+## Features
+
+### Splash Screen
+- Animated logo and fade-in text
+- Automatically transitions to Home Screen
+
+### Home Screen
+- Unified common app bar with theme-based styling
+- Toggle switch to change between light and dark modes
+- Elegant UI with material icons
+- Navigation to all features
+
+### Counter App
+- Increment/decrement with material icons
+- Warning message when value is at zero
+- Smooth transitions using `AnimatedSwitcher`
+
+### Country List with Search
+- List of 50+ real country names
+- Elegant, styled `TextField` with search icon
+- Filters results in real-time
+
+### Post List from API
+- Loads data from `https://jsonplaceholder.typicode.com/posts`
+- Scroll to load more posts (infinite scroll)
+- Clean cards displaying: `User ID`, `Post ID`, `Title`, `Body`
+
+### Profile Screen
+- Static user profile with image, name, and bio
+
+---
+
+## GitHub Actions CI
+- `flutter pub get`
+- `flutter analyze`
+- Builds for APK and Web
+
+---
+
+
+---
 
 ## Getting Started
+```bash
+git clone https://github.com/yourusername/pexa_test_app.git
+cd pexa_test_app
+flutter pub get
+flutter run
+```
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Built With
+- Flutter 3.29.2
+- Material 3 UI
+- GitHub Actions
+- REST API
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# pexa_test
+---
