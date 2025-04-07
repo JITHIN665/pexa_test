@@ -35,7 +35,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Modern Flutter App"),
+        title: Text("Pexa Test App"),
         actions: [
           Row(
             children: [
@@ -52,7 +52,7 @@ class _HomeScreenState extends State<HomeScreen> {
         padding: const EdgeInsets.all(16),
         child: ListView(
           children: [
-            Text("Welcome to the Modern Flutter App!", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+            Text("Welcome to the Pexa Test App!", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
             SizedBox(height: 20),
             ScreenCard(icon: Icons.calculate, title: "Counter App", page: CounterScreen()),
             ScreenCard(icon: Icons.search, title: "Search Countries", page: CountryListScreen()),
@@ -63,6 +63,4 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
     );
   }
-
-
 }

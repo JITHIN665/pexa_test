@@ -10,12 +10,17 @@ class ProfileScreen extends StatelessWidget {
       appBar: CommonAppBar(title: "Profile"),
       body: Center(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.start,
           children: [
-            CircleAvatar(radius: 50, backgroundImage: NetworkImage("https://via.placeholder.com/150")),
+            SizedBox(height: 50),
+            CircleAvatar(
+              radius: 50,
+              backgroundImage: NetworkImage("https://t3.ftcdn.net/jpg/02/43/12/34/240_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg"),
+            ),
             SizedBox(height: 12),
             Text("John Doe", style: TextStyle(fontSize: 22)),
             Text("Flutter Developer"),
+            SizedBox(height: 50),
             ElevatedButton(onPressed: () => Navigator.pop(context), child: Text("Back")),
           ],
         ),
