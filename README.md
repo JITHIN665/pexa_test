@@ -48,7 +48,7 @@ A beautifully themed Flutter application demonstrating clean architecture, dark/
 
 ## Getting Started
 ```bash
-git clone https://github.com/yourusername/pexa_test_app.git
+git clone https://github.com/JITHIN665/pexa_test.git
 cd pexa_test_app
 flutter pub get
 flutter run
